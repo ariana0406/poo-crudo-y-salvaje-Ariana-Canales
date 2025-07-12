@@ -1,5 +1,5 @@
-import Flight from "./Flight"
-import { showAsteriskLine } from "../utils/logs"
+import Flight from "./flight/Flight";
+import { showAsteriskLine } from "../utils/logs";
 
 export default class Airline {
     name: string;

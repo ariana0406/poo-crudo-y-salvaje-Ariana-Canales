@@ -1,24 +1,6 @@
-import Passenger from "./Passenger";
-import { showAsteriskLine } from "../utils/logs";
-
-export enum City {
-    /* Internacional */
-    Madrid = 'Madrid',
-    Barcelona = 'Barcelona',
-    Paris = 'Paris',
-    NewYork = 'New York',
-    London = 'London',
-    Bogota = 'Bogota',
-    Caracas = 'Caracas',
-    /* Nacional */
-    Lima = 'Lima',
-    Ica = 'Ica',
-    Arequipa = 'Arequipa',
-    Cusco = 'Cusco',
-    Trujillo = 'Trujillo',
-    Piura = 'Piura',
-    Iquitos = 'Iquitos'  
-}
+import City from "./City";
+import Passenger from "../Passenger";
+import { showAsteriskLine } from "../../utils/logs";
 
 export default class Flight {
     flightNumber: string;
